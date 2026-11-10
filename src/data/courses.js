@@ -1,0 +1,80 @@
+export const COURSES = [
+  {
+    id: '1',
+    title: 'Advanced UI/UX: Micro-Interactions',
+    instructor: 'Budi Santoso',
+    image: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=400&auto=format&fit=crop',
+    price: 'Rp 250.000',
+    description: 'Pelajari cara merancang micro-interactions dan animasi transisi yang mulus menggunakan Figma dan Principle untuk meningkatkan retensi pengguna.',
+    duration: '4 Minggu',
+    rating: '4.8',
+    category: 'Design',
+    level: 'Beginner',
+    color: '#FF3366'
+  },
+  {
+    id: '2',
+    title: 'React Native for Enterprise',
+    instructor: 'Sarah Jenkins',
+    image: 'https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=400&auto=format&fit=crop',
+    price: 'Rp 450.000',
+    description: 'Membangun arsitektur aplikasi berskala besar menggunakan React Native Expo, Redux Toolkit, dan integrasi CI/CD.',
+    duration: '8 Minggu',
+    rating: '4.9',
+    category: 'Mobile Dev',
+    level: 'Advanced',
+    color: '#00C4CC'
+  },
+  {
+    id: '3',
+    title: 'Data Science: Predictive Models',
+    instructor: 'Ahmad Reza',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=400&auto=format&fit=crop',
+    price: 'Rp 500.000',
+    description: 'Pemodelan prediktif menggunakan Python, Scikit-Learn, dan TensorFlow. Termasuk analisis dataset nyata industri finansial.',
+    duration: '10 Minggu',
+    rating: '4.7',
+    category: 'Data',
+    level: 'Intermediate',
+    color: '#6E00FF'
+  },
+  {
+    id: '4',
+    title: 'Web Penetration Testing & Bug Bounty',
+    instructor: 'Alex Kurniawan',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=400&auto=format&fit=crop',
+    price: 'Rp 650.000',
+    description: 'Teknik ethical hacking modern, vulnerability assessment, dan subdomain takeover menggunakan tools seperti Nuclei dan Subfinder di env Linux.',
+    duration: '6 Minggu',
+    rating: '5.0',
+    category: 'Cybersecurity',
+    level: 'Advanced',
+    color: '#00E676'
+  },
+  {
+    id: '5',
+    title: 'Fullstack Next.js & Supabase',
+    instructor: 'Linda Wijaya',
+    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=400&auto=format&fit=crop',
+    price: 'Rp 350.000',
+    description: 'Master pengembangan web modern dengan arsitektur serverless. Buat aplikasi SaaS lengkap dari nol.',
+    duration: '5 Minggu',
+    rating: '4.6',
+    category: 'Web Dev',
+    level: 'Intermediate',
+    color: '#FF9100'
+  },
+  {
+    id: '6',
+    title: 'Agile Product Management',
+    instructor: 'Diana Ross',
+    image: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=400&auto=format&fit=crop',
+    price: 'Rp 300.000',
+    description: 'Pelajari metodologi Scrum, pembuatan PRD (Product Requirement Document), dan cara memimpin tim developer lintas platform.',
+    duration: '4 Minggu',
+    rating: '4.8',
+    category: 'Management',
+    level: 'Beginner',
+    color: '#2962FF'
+  }
+];
